@@ -1,5 +1,5 @@
 import { StaticJsonRpcProvider } from "@ethersproject/providers";
 
-export const simpleRpcProvider = new StaticJsonRpcProvider(process.env.NEXT_PUBLIC_RPCURL);
+export const simpleRpcProvider = new StaticJsonRpcProvider(process.env.REACT_APP_RPCURL);
 
 export default null;
